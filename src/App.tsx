@@ -1,5 +1,10 @@
-import About from "./components/About";
-import Header from "./components/Header";
+
+import About from "./sections/About";
+import Experience from "./sections/Experience/Experience";
+import Header from "./components/layout/Header";
+import Project from "./sections/projects/Project";
+import Contact from "./sections/Contact";
+import Work from "./sections/work/Work";
 
 function App() {
   return (
@@ -10,25 +15,14 @@ function App() {
       {/* Main content */}
       <main className="pt-20 max-w-7xl mx-auto px-6">
         <About />
-        <section id="experience" className="py-20">
-          <h2 className="text-3xl font-semibold mb-4">Experience</h2>
-          <p className="text-gray-700">Mon parcours professionnel.</p>
-        </section>
+        <Experience />
 
-        <section id="work" className="py-20">
-          <h2 className="text-3xl font-semibold mb-4">Work</h2>
-          <p className="text-gray-700">Mes projets principaux.</p>
-        </section>
+        <Work />
 
-        <section id="contact" className="py-20">
-          <h2 className="text-3xl font-semibold mb-4">Contact</h2>
-          <p className="text-gray-700">Comment me joindre.</p>
-        </section>
+        <Contact />
 
-        <section id="all-my-projects" className="py-20">
-          <h2 className="text-3xl font-semibold mb-4">All my projects</h2>
-          <p className="text-gray-700">Liste complète de mes réalisations.</p>
-        </section>
+        <Project  />
+
       </main>
     </div>
   );
