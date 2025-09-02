@@ -42,7 +42,7 @@ export default function Header() {
           transition={{ delay: navItems.length * 0.2, duration: 0.4 }}
         >
           <a
-            href="/resume.pdf"
+            href="/src/assets/french_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-blue-600 text-blue-600 px-4 py-2 rounded-md font-mono text-sm hover:bg-blue-50 transition-colors"

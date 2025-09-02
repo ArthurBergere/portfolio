@@ -9,12 +9,11 @@ export interface WorkProject {
 
 export const workProjects: WorkProject[] = [
   {
-    name: "Portfolio Website",
-    description: "A personal portfolio built with React, TailwindCSS, and Framer Motion.",
-    githubUrl: "https://github.com/ArthurBergere/portfolio",
-    techStack: ["Vite", "React", "TypeScript", "TailwindCSS"],
+    name: "Document Management System",
+    description: "The DMS project, developed at Hutchinson, aimed to replace an outdated electronic document management system that became unusable after a server migration. The solution leverages Elasticsearch for powerful full-text search and FSCrawler for the automatic indexing of over 200,000 documents. Access to the indexed content is provided through a web application built with ASP .Net MVC. The goal was to restore a fast and efficient full-text search capability for the company’s research center staff.",
+    techStack: [".NET", "ElasticSearch", "FSCrawler", "Html/Js/Bootstrap"],
     liveUrl: "https://arthur-portfolio.com",
-    image: "/assets/work/portfolio.png",
+    image: "/src/assets/ged1.png",
   },
   {
     name: "PokeApp",

@@ -4,7 +4,7 @@ export const experiences = [
     companyUrl: "https://www.orchestrade.com/",
     role: "Jr Software Engineer (Apprenticeship)",
     duration: "2 years",
-    period: "August 2024 - Sep 2026",
+    period: "August 2024 - Now",
     city: "Paris, France", 
     technologies: ["C#", "DevExpress", "PostGreSQL", "Oracle"],
   },
